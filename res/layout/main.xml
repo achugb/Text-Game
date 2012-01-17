@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout android:id="@+id/linearLayout2" 
+    			  android:layout_width="fill_parent" 
+    			  android:layout_height="wrap_content"
+    			  android:layout_weight="1"
+    			  >
+        <TextView android:layout_height="wrap_content" 
+        		  android:id="@+id/text" 
+        		  android:layout_width="fill_parent" 
+        		  android:text="">
+        </TextView>
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/linearLayout1" 
+	  			  android:layout_width="fill_parent" 
+    			  android:layout_height="wrap_content"
+    			  android:layout_weight="0"
+    			  >    			  
+        <Button android:layout_height="wrap_content" 
+        		android:layout_width="fill_parent" 
+        		android:layout_weight="1" 
+        		android:id="@+id/back_button" 
+        		android:text="Back">
+        </Button>
+        <Button android:layout_height="wrap_content" 
+        		android:layout_width="fill_parent" 
+        		android:layout_weight="1" 
+        		android:id="@+id/shoot_button" 
+        		android:text="Shoot">
+        </Button>
+        <Button android:layout_height="wrap_content" 
+        		android:layout_width="fill_parent" 
+        		android:layout_weight="1" 
+        		android:id="@+id/forward_button" 
+        		android:text="Forward">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

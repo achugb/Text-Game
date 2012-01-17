@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Game 1</string>
+    <string name="intro">You are on a stone bridge. The bridge is collapsing behind you.</string>
+    <string name="shoot">Your shot rings off into the darkness</string>
+    <string name="back">You fall off and die</string>
+    <string name="shoot2">Your shot killed the monster. Yay...</string>
+    <string name="fwd1">You take one step forward and a monster appears out of nowhere.</string>
+    <string name="fwd_m_not_dead">The monster killed you. Like you didn\'t expect that...</string>
+    <string name="fwd_m_dead">You\'ve crossed the bridge. Good job.\n\n\nYou get struck by lightning and die.</string>
+</resources>
